@@ -2,12 +2,15 @@
 Course Project for "Getting and Cleaning Data" course on coursera
 
 INTRODUCTION
+
 This repository is part of my submission for the Week 4 course project for the coursera course titled "Getting and Cleaning Data."  This project relates to data collected from the accelerometers of the Samsung Galaxy S smartphone.  Specifically, the data in this project relates to an experiment conducted with 30 subjects performing six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying).  The data was collected from the subjects while they performed the activities.
 
 ABOUT THE DATA
+
 The data was split into two sets, a 'train' set and a 'test' set.  For the purposes of this project, this distinction was not important and the two sets were to be merged.  For the train (test) set, there was a y_train (y_test) file containing the activity information for each trial (i.e. which of the six activities the subject was doing for a given trial).  For the train (test) set, there was a subject_train (subject_test) file containing the subject information for each trial (i.e. which of the 30 subjects was participating for a given trial).  For the train (test) set, there was an X_train (X_test) file containing summary information for each trial.  Each observation in the X_train (X_test) file contained 561 entries, labled in a features file.
 
 OBJECTIVE OF THE PROJECT
+
 The objective of this project was to:
   1) Merge the Training and Test data sets to create one set
   2) Extract only the mean and standard deviation for each measurement
